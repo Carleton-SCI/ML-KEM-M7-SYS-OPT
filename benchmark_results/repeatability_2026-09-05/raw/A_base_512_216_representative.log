@@ -1,0 +1,14 @@
+ML-KEM benchmark start
+Config: ML-KEM-512 backend=pqm7 variant=m7fspeed arch=m7 opt=speed keccak=m4_opt_m7 cached_a=OFF clock=216mhz flash_accel=off itcm=off itcm_keccak=OFF itcm_keccak_helper=OFF itcm_ntt=OFF itcm_matacc_cache=OFF itcm_matacc_opt=OFF itcm_matacc_capture=OFF itcm_frombytes=OFF itcm_basemul=OFF itcm_compress=OFF itcm_reduce=OFF itcm_cbd=OFF dtcm_const=off profile=off public_hpk=OFF public_pk=OFF public_cache=off bench_mode=sequence
+HCLK=216000000 Hz
+RNG sample: hardware RNG disabled
+Running benchmarks in one loop...
+=== Benchmark Results (100 iterations) ===
+Keygen : min=231027 (1.070 ms) avg=232238 (1.075 ms) med=232039 (1.074 ms) max=238995 (1.106 ms)
+Encaps : min=229138 (1.061 ms) avg=232013 (1.074 ms) med=233169 (1.079 ms) max=240445 (1.113 ms)
+Decaps : min=249072 (1.153 ms) avg=250426 (1.159 ms) med=250309 (1.159 ms) max=256988 (1.190 ms)
+Encapsulated Shared Secret: 013953AB2CB9A66A56A6FDB2464B8CC6CB0290729A31FC0E0970A9DCA6EA3CC4
+Decapsulated Shared Secret: 013953AB2CB9A66A56A6FDB2464B8CC6CB0290729A31FC0E0970A9DCA6EA3CC4
+Shared Secret Match: 1
+
+BENCHMARK_DONE

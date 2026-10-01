@@ -1,0 +1,29 @@
+name: ml-kem tests
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches: [ "master" ]
+jobs:
+  test-ml-kem:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Install Toolchain
+        uses: carlosperate/arm-none-eabi-gcc-action@v1.8.0
+        with:
+          release: 13.2.Rel1
+      - name: Install qemu-system
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qemu-system
+      - name: Install dependencies
+        run:  pip3 install -r requirements.txt
+      - name: Test (mps2-an500)
+        run: ./test.py -p mps2-an500 ml-kem-512 ml-kem-768 ml-kem-1024
+      - name: Testvectors (mps2-an500)
+        run: ./testvectors.py -p mps2-an500 ml-kem-512 ml-kem-768 ml-kem-1024

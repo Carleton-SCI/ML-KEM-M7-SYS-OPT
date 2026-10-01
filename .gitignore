@@ -1,0 +1,40 @@
+build/
+mx.scratch
+!.settings
+/paper/
+
+# Local benchmark output. The retained paper evidence sets remain tracked.
+benchmark_results/*
+!benchmark_results/paper_matrix_single_knob_sequence_2026-06-23_19-11-45/
+!benchmark_results/paper_matrix_single_knob_sequence_2026-06-23_19-11-45/**
+!benchmark_results/paper_clock_sweep_composite_itcm_opt_sequence_2026-06-23_19-11-45/
+!benchmark_results/paper_clock_sweep_composite_itcm_opt_sequence_2026-06-23_19-11-45/**
+!benchmark_results/itcm_selection_2026-06-21/
+!benchmark_results/itcm_selection_2026-06-21/**
+!benchmark_results/repeatability_2026-09-05/
+!benchmark_results/repeatability_2026-09-05/**
+
+# Python cache files created by local helper scripts.
+__pycache__/
+*.py[cod]
+
+# Large unused CMSIS vendor trees for the CMake ML-KEM benchmark build.
+Drivers/CMSIS/Core_A/
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/Lib/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/docs/
+
+# Large unused pqm vendor subtrees for the CMake ML-KEM benchmark build.
+third_party/pqm4/crypto_sign/
+third_party/pqm4/hostside/
+third_party/pqm4/libopencm3/
+third_party/pqm7/crypto_sign/
+third_party/pqm7/hostside/
+third_party/pqm7/libopencm3/
+third_party/pqm7/mbed-os/
+
+# Nested vendor metadata is not part of this source snapshot.
+third_party/**/.git/

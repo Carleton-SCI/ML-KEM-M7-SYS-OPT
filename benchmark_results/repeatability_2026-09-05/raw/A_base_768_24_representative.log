@@ -1,0 +1,14 @@
+ML-KEM benchmark start
+Config: ML-KEM-768 backend=pqm7 variant=m7fspeed arch=m7 opt=speed keccak=m4_opt_m7 cached_a=OFF clock=24mhz flash_accel=off itcm=off itcm_keccak=OFF itcm_keccak_helper=OFF itcm_ntt=OFF itcm_matacc_cache=OFF itcm_matacc_opt=OFF itcm_matacc_capture=OFF itcm_frombytes=OFF itcm_basemul=OFF itcm_compress=OFF itcm_reduce=OFF itcm_cbd=OFF dtcm_const=off profile=off public_hpk=OFF public_pk=OFF public_cache=off bench_mode=sequence
+HCLK=24000000 Hz
+RNG sample: hardware RNG disabled
+Running benchmarks in one loop...
+=== Benchmark Results (100 iterations) ===
+Keygen : min=372486 (15.520 ms) avg=373982 (15.583 ms) med=373611 (15.567 ms) max=380543 (15.856 ms)
+Encaps : min=379597 (15.817 ms) avg=383028 (15.960 ms) med=384042 (16.002 ms) max=391919 (16.330 ms)
+Decaps : min=405951 (16.915 ms) avg=407630 (16.985 ms) med=407232 (16.968 ms) max=414539 (17.272 ms)
+Encapsulated Shared Secret: 6AA8A4E7E28DB8CE1A39440E99EE527453EC8FAB3452DB457AE34C867D864B43
+Decapsulated Shared Secret: 6AA8A4E7E28DB8CE1A39440E99EE527453EC8FAB3452DB457AE34C867D864B43
+Shared Secret Match: 1
+
+BENCHMARK_DONE

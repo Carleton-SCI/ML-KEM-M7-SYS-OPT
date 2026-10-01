@@ -1,0 +1,17 @@
+ML-KEM benchmark start
+Config: ML-KEM-768 backend=pqm7 variant=m7fspeed arch=m7 opt=speed keccak=m4_opt_m7 cached_a=OFF clock=216mhz flash_accel=off itcm=off itcm_keccak=OFF itcm_keccak_helper=OFF itcm_ntt=OFF itcm_matacc_cache=OFF itcm_matacc_opt=OFF itcm_matacc_capture=OFF itcm_frombytes=OFF itcm_basemul=OFF itcm_compress=OFF itcm_reduce=OFF itcm_cbd=OFF dtcm_const=ntt profile=off public_hpk=OFF public_pk=OFF public_cache=off bench_mode=sequence
+HCLK=216000000 Hz
+RNG sample: hardware RNG disabled
+Running benchmarks in one loop...
+=== Benchmark Results (100 iterations) ===
+Keygen : min=376481 (1.743 ms) avg=377910 (1.750 ms) med=377522 (1.748 ms) max=384893 (1.782 ms)
+Encaps : min=382990 (1.773 ms) avg=386364 (1.789 ms) med=387371 (1.793 ms) max=395217 (1.830 ms)
+Decaps : min=411028 (1.903 ms) avg=413061 (1.912 ms) med=412725 (1.911 ms) max=419880 (1.944 ms)
+STDDEV Keygen: sd=1706 cycles rel=0.4514 % n=100
+STDDEV Encaps: sd=2539 cycles rel=0.6571 % n=100
+STDDEV Decaps: sd=1697 cycles rel=0.4108 % n=100
+Encapsulated Shared Secret: 6AA8A4E7E28DB8CE1A39440E99EE527453EC8FAB3452DB457AE34C867D864B43
+Decapsulated Shared Secret: 6AA8A4E7E28DB8CE1A39440E99EE527453EC8FAB3452DB457AE34C867D864B43
+Shared Secret Match: 1
+
+BENCHMARK_DONE

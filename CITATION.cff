@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this software or its benchmark evidence, please cite the accompanying paper and this repository."
+title: "ML-KEM Cortex-M7 System-Level Optimization Benchmark Suite"
+type: software
+version: 1.0.0
+date-released: 2026-09-30
+repository-code: "https://github.com/Carleton-SCI/ML-KEM-M7-SYS-OPT"
+license: GPL-3.0-only
+authors:
+  - family-names: Sayed
+    given-names: Mahmoud Abdelhafeez
+    affiliation: "Systems and Computer Engineering, Carleton University"
+    email: "Mahmoud.Sayed3@Carleton.ca"
+  - family-names: Taha
+    given-names: Mostafa
+    affiliation: "Systems and Computer Engineering, Carleton University"
+    email: "Mostafa.Taha@Carleton.ca"
+  - family-names: Nijjer
+    given-names: Gurp
+    affiliation: "Quantegra Technologies Inc., White Rock, BC, Canada"
+    email: "gurp@quantegra.ca"
+preferred-citation:
+  type: conference-paper
+  title: "System-Level Optimization Beyond Cryptographic Kernels: An ML-KEM Case Study on Arm Cortex-M7"
+  collection-title: "Foundations and Practice of Security. FPS 2026"
+  year: 2026
+  authors:
+    - family-names: Sayed
+      given-names: Mahmoud Abdelhafeez
+    - family-names: Taha
+      given-names: Mostafa
+    - family-names: Nijjer
+      given-names: Gurp
+  conference:
+    name: "19th International Symposium on Foundations & Practice of Security"
+    location: "Gatineau, Canada"
+    date-start: 2026-10-13
+    date-end: 2026-10-16
+  publisher:
+    name: "Springer"
+  

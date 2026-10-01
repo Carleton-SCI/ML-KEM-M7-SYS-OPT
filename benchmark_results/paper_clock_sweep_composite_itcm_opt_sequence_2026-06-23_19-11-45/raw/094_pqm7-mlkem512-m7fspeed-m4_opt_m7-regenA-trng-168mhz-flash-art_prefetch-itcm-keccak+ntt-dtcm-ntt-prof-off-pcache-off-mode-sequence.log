@@ -1,0 +1,153 @@
+===== BUILD LOG =====
+Preset CMake variables:
+
+  CMAKE_BUILD_TYPE="Release"
+  CMAKE_TOOLCHAIN_FILE:FILEPATH="<REPOSITORY_ROOT>/cmake/gcc-arm-none-eabi.cmake"
+
+-- The C compiler identification is GNU 13.2.1
+-- The CXX compiler identification is GNU 13.2.1
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/arm-none-eabi-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/arm-none-eabi-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type: Release
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/arm-none-eabi-gcc
+-- ML-KEM backend: pqm7
+-- ML-KEM variant: m7fspeed
+-- ML-KEM clock: 168mhz
+-- ML-KEM flash accelerator: art_prefetch
+-- ML-KEM ITCM: keccak_ntt
+-- ML-KEM DTCM constants: ntt
+-- ML-KEM profile: off
+-- ML-KEM public cache: off
+-- ML-KEM benchmark mode: sequence
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: <REPOSITORY_ROOT>/build/Release
+[1/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/add_kyber_opt_m7.s.obj
+[2/40] Building ASM object CMakeFiles/STM_ML-KEM_V2.dir/startup_stm32f767xx.s.obj
+[3/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/basemul_16_32_kyber_opt_m7.s.obj
+[4/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/barrett_reduce_kyber_opt_m7.s.obj
+[5/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/basemul_acc_32_16_kyber_opt_m7.s.obj
+[6/40] Building C object CMakeFiles/STM_ML-KEM_V2.dir/Core/Src/sysmem.c.obj
+[7/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/basemul_acc_32_32_kyber_opt_m7.s.obj
+[8/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/cbd.c.obj
+[9/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/ntt.c.obj
+[10/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/cmov_int16.S.obj
+[11/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/polyvec.c.obj
+[12/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/frombytes_mul_acc_32_32_kyber_opt_m7.s.obj
+[13/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/matacc.c.obj
+[14/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/symmetric-fips202.c.obj
+[15/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/frombytes_mul_acc_32_16_kyber_opt_m7.s.obj
+[16/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/verify.c.obj
+[17/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/frombytes_mul_16_32_kyber_opt_m7.s.obj
+[18/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/fromplant_kyber_opt_m7.s.obj
+[19/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/matacc_asm_cache_32_16_kyber_opt_m7.s.obj
+[20/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/kem.c.obj
+[21/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/matacc_asm_cache_32_32_kyber_opt_m7.s.obj
+[22/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/matacc_asm_opt_16_32_kyber_opt_m7.s.obj
+[23/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/intt_kyber_opt_m7.s.obj
+[24/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/matacc_asm_cache_16_32_kyber_opt_m7.s.obj
+[25/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/matacc_asm_opt_32_16_kyber_opt_m7.s.obj
+[26/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/indcpa.c.obj
+[27/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/matacc_asm_opt_32_32_kyber_opt_m7.s.obj
+[28/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/ntt_kyber_opt_m7.s.obj
+[29/40] Building C object CMakeFiles/STM_ML-KEM_V2.dir/Core/Src/syscalls.c.obj
+[30/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/sub_kyber_opt_m7.s.obj
+[31/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/common/keccakf1600.S.obj
+[32/40] Building C object CMakeFiles/STM_ML-KEM_V2.dir/Core/Src/stm32f7xx_it.c.obj
+[33/40] Building ASM object CMakeFiles/mlkem_impl.dir/third_party/pqm7/common/keccakf1600_adomnicai_m4_opt_m7.s.obj
+[34/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/crypto_kem/ml-kem-512/m7fspeed/poly.c.obj
+[35/40] Building C object CMakeFiles/STM_ML-KEM_V2.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+[36/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/common/randombytes.c.obj
+[37/40] Building C object CMakeFiles/mlkem_impl.dir/third_party/pqm7/mupq/common/fips202.c.obj
+[38/40] Building C object CMakeFiles/STM_ML-KEM_V2.dir/Core/Src/main.c.obj
+[39/40] Linking C static library libmlkem_impl.a
+[40/40] Linking C executable STM_ML-KEM_V2.elf
+Memory region         Used Size  Region Size  %age Used
+            ITCM:       12000 B        15 KB     78.12%
+             RAM:        9000 B       128 KB      6.87%
+           FLASH:       51048 B         2 MB      2.43%
+
+===== FLASH LOG =====
+[36m[01m      -------------------------------------------------------------------
+[39;49m[0m[36m[01m                        STM32CubeProgrammer v2.22.0                  
+[39;49m[0m[36m[01m      -------------------------------------------------------------------
+
+[39;49m[0m[90mST-LINK SN  : 066CFF565271525067101652
+[39;49m[0m[90mST-LINK FW  : V2J39M27
+[39;49m[0m[90mBoard       : NUCLEO-F767ZI
+[39;49m[0m[90mVoltage     : 3.24V
+[39;49m[0m[90mSWD freq    : 4000 KHz
+[39;49m[0m[90mConnect mode: Normal
+[39;49m[0m[90mReset mode  : Software reset
+[39;49m[0m[90mDevice ID   : 0x451
+[39;49m[0m[90mRevision ID : Rev Z
+[39;49m[0m[39;49m[0m[39;49mDevice name : STM32F76x/STM32F77x
+[39;49m[0m[39;49mNVM size  : 2 MBytes
+[39;49m[0m[39;49mDevice type : MCU
+[39;49m[0m[39;49mDevice CPU  : Cortex-M7
+[39;49m[0m[39;49mBL Version  : 0x93
+[39;49m[0m[39;49m
+[39;49m[0m[39;49m
+
+[39;49m[0m[39;49mOpening and parsing file: STM_ML-KEM_V2.elf
+[39;49m[0m[39;49m
+
+[39;49m[0m[39;49mMemory Programming ...
+[39;49m[0m[39;49m  File          : STM_ML-KEM_V2.elf
+[39;49m[0m[39;49m  Size          : 49.85 KB 
+[39;49m[0m[39;49m  Address       : 0x08000000
+[39;49m[0m[39;49m
+
+[39;49m[0m[39;49m[0m[39;49mErasing memory corresponding to segment 0:
+[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49mErasing internal memory sectors [0 1]
+[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49mDownload in Progress:
+[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[39;49m[0m[00;32m[==================================================] 100% 
+[39;49m[39;49m[0m[39;49m[0m[39;49m[0m
+
+[39;49m[39;49m[0mFile download complete
+[00;32m[39;49m[0mTime elapsed during download operation: 00:00:01.081
+[39;49m[39;49m[0m
+
+
+[39;49m[39;49m[0mVerifying...
+[39;49m[39;49m[0m
+
+[39;49m[39;49m[0mRead progress:
+[39;49m[39;49m[0m[39;49m[0m[39;49m[0m[00;32m[==================================================] 100% 
+[39;49m
+
+[39;49m[39;49m[0mTime elapsed during verifying operation: 00:00:00.341
+[39;49m[39;49m[0m
+
+[39;49m[39;49m[0mDownload verified successfully
+[00;32m[39;49m[0m
+
+[39;49m[39;49m[0m[39;49m[0m
+MCU Reset
+[00;32m[39;49m[0m[39;49m[0m
+Software reset is performed
+[00;32m[39;49m[0m[39;49m[0m
+===== UART LOG =====
+ML-KEM benchmark start
+Config: ML-KEM-512 backend=pqm7 variant=m7fspeed arch=m7 opt=speed keccak=m4_opt_m7 cached_a=OFF clock=168mhz flash_accel=art_prefetch itcm=keccak_ntt dtcm_const=ntt profile=off public_cache=off bench_mode=sequence
+HCLK=168000000 Hz
+RNG sample: B1A0E0CDB3DEF8DFD2BBA8D694EBCD98
+Running benchmarks in one loop...
+=== Benchmark Results (100 iterations) ===
+Keygen : min=225244 (1.341 ms) avg=226132 (1.346 ms) med=225806 (1.344 ms) max=239379 (1.425 ms)
+Encaps : min=225877 (1.345 ms) avg=227064 (1.352 ms) med=226577 (1.349 ms) max=239819 (1.427 ms)
+Decaps : min=244116 (1.453 ms) avg=245130 (1.459 ms) med=244788 (1.457 ms) max=258269 (1.537 ms)
+Encapsulated Shared Secret: 63665A774B13352F346EE5AF2AAD8197EE8AF36BE01F169C3BB47C5D377D07A8
+Decapsulated Shared Secret: 63665A774B13352F346EE5AF2AAD8197EE8AF36BE01F169C3BB47C5D377D07A8
+Shared Secret Match: 1
+
+BENCHMARK_DONE
